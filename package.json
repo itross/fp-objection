@@ -1,0 +1,30 @@
+{
+  "name": "@itross/fp-objection",
+  "version": "0.1.0",
+  "description": "Fastify plugin for Objection.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itross/fp-objection.git"
+  },
+  "keywords": [
+    "fastify",
+    "objection"
+  ],
+  "author": "Luca Stasio <joshuagame@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itross/fp-objection/issues"
+  },
+  "homepage": "https://github.com/itross/fp-objection#readme",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
