@@ -30,7 +30,7 @@ async function objectionPlugin (fastify, opts) {
   const snakeCase = opts.snakeCase || {}
   const knexConfig = {
     ...opts.config,
-    ...Objection.snakeCaseMappers({
+    ...Objection.knexSnakeCaseMappers({
       upperCase: snakeCase.upperCase || false,
       underscoreBeforeDigits: snakeCase.underscoreBeforeDigits || false,
       underscoreBetweenUppercaseLetters: snakeCase.underscoreBetweenUppercaseLetters || true

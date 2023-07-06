@@ -1,6 +1,6 @@
 {
   "name": "@itross/fp-objection",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fastify plugin for Objection.js",
   "main": "index.js",
   "scripts": {
